@@ -1,0 +1,57 @@
+#menu{
+  height: 100%;
+}
+
+#menu-items{
+  flex-direction: column;
+  padding: 40px 0;
+
+}
+
+.logo-container{
+  justify-content: center;
+}
+
+#menu-nav{
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+}
+
+#menu-nav li{
+  border-bottom: 1px solid #f5f5f5;
+  border-top: 1px solid #f5f5f5;
+}
+
+#clients-imgs{
+  grid-template-columns: repeat(2,1fr);
+  width: 100%;
+}
+
+#clients{
+  width: 100%;
+}
+
+.client{
+  padding: 20px;
+  width: 100%;
+}
+
+#container-about{
+  grid-template-columns: repeat(1,1fr);
+}
+
+#imgs-galeria{
+  grid-template-columns: 1fr;
+  width: 100%;
+}
+
+.gallery-img{
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.title-about{
+  width: 100%;
+  padding: 10px;
+}
